@@ -5,7 +5,7 @@ use std::fs::File;
 use std::io::Write;
 
 const NUM_LINES: usize = 25;
-const NUM_ENTRIES: usize = 100;
+const NUM_ENTRIES: usize = 100g;
 
 fn main() {
     let mut file = File::create("output.txt").unwrap();
