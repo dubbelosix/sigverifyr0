@@ -1,0 +1,12 @@
+[package]
+name = "siggen"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = "1.0"
+ed25519-dalek = { version = "2", features = ["serde","rand_core"] }
+rand = "0.8.4"
+borsh = { version = "0.9", features = ["std"] }
+base64 = "0.21.7"
+hex = "0.4.3"
